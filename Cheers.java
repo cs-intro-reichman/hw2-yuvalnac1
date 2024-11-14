@@ -8,7 +8,7 @@ public class Cheers {
         String aOrAn;
         
         for (int i = 0; i < cheerWord.length(); i++) {
-            aOrAn = "a";
+            aOrAn = "a ";
             letter = cheerWord.charAt(i);
             if (anLetters.indexOf(letter) != -1) {
                 aOrAn = "an";
